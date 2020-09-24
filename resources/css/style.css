@@ -13,13 +13,14 @@ header h1 {
 }
 
 /* links */
-.download-link {
+.download-link a {
     color: aquamarine;
     font-size: 16px;
 }
 
 /* main */
 h2 {
+    color: white;
     font-family: Verdana;
     font-weight: 300;
     font-size: 42px;
@@ -29,6 +30,27 @@ p {
     font-family: Verdana;
     font-size: 21px;
     color: gray;
+}
+
+.media {
+    margin: auto;
+    display: block;
+}
+
+.phone-video {
+    width: 400px;
+    height: auto;
+}
+
+.camp-img {
+    width: 80%;
+    height: auto;
+}
+
+.icon {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
 }
 
 /* footer */
